@@ -70,7 +70,7 @@ const AddNote = () => {
           contentFieldFocus ? "scale-100" : "scale-0"
         } transition-all text-white text-lg`}
       >
-        Characters Remaining:{titleCharactersCount - noteTitle.length}
+        Characters Remaining:{contentCharactersCount - noteContent.length}
       </span>
 
       <button className="py-2 text-xl bg-[#8F43EE] ">Add Note</button>
